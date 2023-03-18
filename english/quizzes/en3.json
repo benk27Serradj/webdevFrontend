@@ -1,0 +1,93 @@
+[
+    {
+        "question": "What is the color of the sun?",
+        "choices": ["yellow", "pink", "blue", "yellow"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "how many fingers do you have in one Hand ?",
+        "choices": ["0", "5", "10", "50"],
+        "type": "radio",
+        "correctAnswer": 1
+    },
+
+    {
+        "question": "winter spring .... fall?",
+        "choices": ["food", "money", "nothing", "summer"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which word means the opposite of hot?",
+        "choices": ["cold", "kind", "sweet"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What animal says 'meow'?",
+        "choices": ["Dog", "Cat", "Cow", "Pig"],
+        "type": "radio",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the name of the thing you use to write with?",
+        "choices": ["Pencil", "Eraser", "Ruler", "Pen"],
+        "type": "radio",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the name of the animal that barks ?",
+        "choices": ["Cat", "Dog", "Fish", "Hamster"],
+        "type": "radio",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the color of a banana?",
+        "choices": ["Red", "Yellow", "Green", "Blue"],
+        "type": "radio",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the opposite of 'up'?"        ,
+        "choices": ["Down", "Left", "Right", "Front"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the shape of a soccer ball?",
+        "choices": ["Cube", "Sphere", "Cylinder", "Pyramid"],
+        "type": "radio",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which of these is not a fruit?"        ,
+        "choices": ["Apple", "Carrot", "Grapes", "Banana"],
+        "type": "radio",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Choose correct MySQL text data types.",
+        "choices": ["LONGTEXT", "BLOB", "SMALLTEXT", "MIDDLEBLOB"],
+        "type": "checkbox",
+        "correctAnswer": [0, 1]
+    },
+    {
+        "question": "Choose correct MySQL number data types.",
+        "choices": ["TINYINT", "BIGINT", "MIDDLEINT", "LONG"],
+        "type": "checkbox",
+        "correctAnswer": [0, 1]
+    },
+    {
+        "question": "What is the name of the place where you can see a lot of animals?",
+        "choices": ["Beach", "Library", "Zoo", "Museum"],
+        "type": "radio",
+        "correctAnswer": 2
+    },
+    {
+        "question":"What do you call the person who flies an airplane?",
+        "choices": ["Driver", "Pilot", "Captain", "Engineer"],
+        "type": "radio",
+        "correctAnswer": 1
+    }
+]

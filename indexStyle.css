@@ -1,0 +1,180 @@
+/*@import url('');*/
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+/*{*/
+/*    margin:0 ;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*}*/
+
+
+body{
+    overflow-x: hidden;
+    background: #fff;
+    /*min-height: 100vh;*/
+}
+
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:60px ;
+    padding: 15px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    /*font-family: 'Rancho', cursive;*/
+    /*letter-spacing: 4px;*/
+
+}
+
+#header .logo{
+    /*color: #094b65;*/
+    /*font-weight: 700;*/
+    /*font-size: 2em;*/
+    /*text-decoration: none;*/
+    /*margin-left: 10px;*/
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+}
+#header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li{
+    list-style: none;
+    margin-left:25px;
+    margin-right:20px;
+    font-size: larger;
+}
+
+#header ul li a{
+    text-decoration: none;
+    padding: 6px 10px;
+    color: #094b65;
+    border-radius: 20px;
+}
+
+
+
+#header ul li a:hover{
+    background-color: #094b65;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+section{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("kids.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section #text{
+    margin-top: 300px;
+    position: absolute;
+    color: #094b65;
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Rancho', cursive;
+    transform: translateY(-50%);
+}
+section #text span
+{
+    font-size: 0.35em;
+    letter-spacing:2px ;
+    font-weight: 400;
+}
+
+#btn{
+    text-decoration: none;
+    display:inline-block;
+    padding: 8px 30px;
+    background: white;
+    color: #094b65;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transform: translateY(100px);
+    outline-color: #094b65;
+    margin-top: 100px;
+    outline-style: solid;
+    outline-color: #094b65;
+}
+
+#btn:hover{
+    background: #094b65;
+    color: white;
+}
+
+#about{
+    font-family: 'Rancho', cursive;
+    color: rgba(1, 62, 77, 0.96);
+    font-size: 1.2em;
+
+}
+
+#silr{
+    font-family: sans-serif;
+    color: black;
+}
+#contact{
+    background-color: rgba(1, 62, 77, 0.3);
+    height: 20px;
+    position: absolute;
+    width: 100%;
+    padding: 15px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact ul li{
+    list-style: none;
+    margin-left:25px;
+    margin-right:20px;
+    font-size: 15px;
+}
+
+
+#contact a{
+    padding-top: 100px;
+}
+
+#contact a img{
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
+
+#contact .silr{
+    padding-left: 830px;
+    font-size: xx-large;
+}

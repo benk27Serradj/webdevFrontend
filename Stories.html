@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stories</title>
+    <link rel="stylesheet" href="stories.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+     <header id="header">
+        <a href="a" class="logo" ><img src="img/wizkidt.png"></a>
+        <ul>
+            <li> <a href="index.html" class="active"> Home</a> </li>
+            <li> <a href="a" > About Us</a> </li>
+            <li> <a href="a"> Help Us</a> </li>
+            <li> <a href="a"> Contact</a> </li> 
+        </ul> 
+     </header>
+     <section>
+        <h2 id="text" ><span>It's time for a new </span><br>Story</h2>
+        <img src="bird1.png" id="bird1">
+        <img src="bird2.png" id="bird2">
+        <img src="forest.png" id="forest">
+        <a href="#" id="button">Explore</a>
+        <img src="rocks.png" id="rocks">
+        <img src="water.png" id="water">
+
+
+     </section>
+     <div class="sec">
+        <h2 ></h2>
+     </div>
+     <div class="sec2">
+      <h2 ></h2>
+   </div>
+   <div class="sec3">
+      <h2 ></h2>
+   </div>
+   <div class="sec4">
+      <h2 ></h2>
+   </div>
+   <div class="sec5">
+      <h2 ></h2>
+   </div>
+     <script>
+        let text=document.getElementById('text');
+        let bird1=document.getElementById('bird1');
+        let bird2=document.getElementById('bird2');
+        let forest=document.getElementById('forest');
+        let button=document.getElementById('button');
+        let rocks=document.getElementById('rocks');
+        let water=document.getElementById('water');
+        let header=document.getElementById('header');
+
+        window.addEventListener('scroll', function(){
+        let value = window.scrollY;})
+        text.style.top = 50 * value * - 0.5 * '%';
+        bird1.style.top =  value * - 1.5 + 'px';
+        bird1.style.left =  value * 2 + 'px';
+        bird2.style.top =  value * - 1.5 + 'px';
+        bird2.style.left =  value * -5 + 'px';
+        btn.style.marginTop =  value * 1.5 + 'px';
+        rocks.style.top =  value * - 0.12 + 'px';
+        forest.style.top =  value * 0.25 + 'px';
+        forest.style.top =  value * -0.5 * 'px';
+
+     </script>
+     <div id="background-wrap">
+      <div class="bubble x1"></div>
+      <div class="bubble x2"></div>
+      <div class="bubble x3"></div>
+      <div class="bubble x4"></div>
+      <div class="bubble x5"></div>
+      <div class="bubble x6"></div>
+      <div class="bubble x7"></div>
+      <div class="bubble x8"></div>
+      <div class="bubble x9"></div>
+      <div class="bubble x10"></div>
+      <div class="scroll-container">
+      </div>  
+       
+  
+</body>
+</html>

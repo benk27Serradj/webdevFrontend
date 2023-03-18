@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+body{
+    overflow-x: hidden;
+    /*min-height: 100vh;*/
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#header {
+    /*font-family: 'Rancho', cursive;*/
+    /*letter-spacing: 4px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 8px;
+    height:60px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+#header .logo{
+    /*color: #094b65;*/
+    /*font-weight: 700;*/
+    /*font-size: 2em;*/
+    /*text-decoration: none;*/
+    /*margin-left: 10px;*/
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+}
+#header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li{
+    list-style: none;
+    margin-left:25px;
+    margin-right:20px;
+    font-size: larger;
+}
+
+#header ul li a{
+    text-decoration: none;
+    padding: 6px 10px;
+    color:white;
+    border-radius: 20px;
+}
+
+#header ul li a:hover{
+    background-color: #094b65;
+    color: white;
+    padding: 10px;
+}
+
+
+
+#header ul li a:hover ,
+#header ul li a.active{
+    background: #094b65;
+    color: white;
+    padding: 10px;
+}
+
+
+.register-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 430px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255,0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 20px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);*/
+}
+
+.register-form h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Rancho', cursive;
+    letter-spacing: 4px;
+}
+.register-form h2 span{
+    color: #094b65;
+}
+
+.register-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background: transparent;
+    outline-style: solid;
+    outline-color: #094b65;
+}
+.register-form input::placeholder{
+    color: rgba(9, 74, 100, 0.5);
+}
+
+.register-form button {
+    display: block;
+    width: 90px;
+    padding: 10px;
+    margin: auto;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    backdrop-filter: blur();
+    outline-style: solid;
+    outline-color: #094b65;
+    font-family: 'Rancho', cursive;
+    letter-spacing: 4px;
+}
+
+.register-form button:hover {
+    background-color: #094b65;
+    color: white;
+}
+
+.register-form p {
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: 'Rancho', cursive;
+    letter-spacing: 4px;
+}
+.register-form p span{
+    color: #094b65;
+}
+
+
+

@@ -1,0 +1,148 @@
+[
+    {
+        "question": "What is the output?",
+        "description": "18+10",
+        "type": "input",
+        "correctAnswer": "28"
+    },
+    {
+        "question": "What is the output?",
+        "description": "100-41",
+        "type": "input",
+        "correctAnswer": "59"
+    },
+    {
+        "question": "5+12=17",
+        "choices": ["true", "false"],
+        "type": "radio",
+        "correctAnswer": 0
+    },
+    {
+"question": "What is the result of 2 + 2?",
+"choices": ["3", "4", "5", "6"],
+"type": "radio",
+"correctAnswer": 1
+},
+{
+"question": "What is the result of 5 - 3?",
+"choices": ["1", "2", "3", "4"],
+"type": "radio",
+"correctAnswer": 1
+},
+{
+"question": "What is the result of 4 x 2?",
+"choices": ["4", "6", "8", "10"],
+"type": "radio",
+"correctAnswer": 2
+},
+{
+"question": "What is the result of 10 ÷ 2?",
+"choices": ["2", "4", "5", "10"],
+"type": "radio",
+"correctAnswer": 1
+},
+{
+"question": "What is the result of 12 + 4 - 6?",
+"choices": ["10", "14", "16", "18"],
+"type": "radio",
+"correctAnswer": 1
+},
+{
+"question": "What is the result of 3 x (4 + 2)?",
+"choices": ["12", "15", "18", "24"],
+"type": "radio",
+"correctAnswer": 3
+},
+{
+"question": "What is the result of 20 - 10 ÷ 2?",
+"choices": ["5", "10", "15", "20"],
+"type": "radio",
+"correctAnswer": 2
+},
+{
+    "question": "What is 5 + 2?",
+    "type": "input",
+    "correctAnswer": "7"
+},
+{
+    "question": "What is 3 x 4?",
+    "type": "input",
+    "correctAnswer": "12"
+},
+{
+    "question": "What is 10 - 3?",
+    "type": "input",
+    "correctAnswer": "7"
+},
+{
+    "question": "What is the result of 8 divided by 2?",
+    "type": "input",
+    "correctAnswer": "4"
+},
+{
+    "question": "What is the result of 15 divided by 5?",
+    "type": "input",
+    "correctAnswer": "3"
+},
+{
+    "question": "What is the sum of 2 + 2?",
+    "choices": ["2", "3", "4", "5"],
+    "type": "radio",
+    "correctAnswer": 2
+},
+{
+    "question": "What is 5 - 3?",
+    "choices": ["1", "2", "3", "4"],
+    "type": "radio",
+    "correctAnswer": 1
+},
+{
+    "question": "What is the product of 2 x 4?",
+    "choices": ["6", "8", "10", "12"],
+    "type": "radio",
+    "correctAnswer": 1
+},
+{
+    "question": "What is 12 ÷ 3?",
+    "choices": ["3", "4", "6", "9"],
+    "type": "radio",
+    "correctAnswer": 2
+},
+{
+    "question": "What is the value of 7 squared?",
+    "choices": ["7", "14", "21", "49"],
+    "type": "radio",
+    "correctAnswer": 3
+},
+{
+    "question": "What is 100 - 50?",
+    "choices": ["25", "50", "75", "100"],
+    "type": "radio",
+    "correctAnswer": 2
+},
+{
+    "question": "What is the product of 5 x 5?",
+    "choices": ["10", "15", "20", "25"],
+    "type": "radio",
+    "correctAnswer": 3
+},
+{
+    "question": "What is 24 ÷ 6?",
+    "choices": ["2", "3", "4", "6"],
+    "type": "radio",
+    "correctAnswer": 2
+},
+{
+    "question": "What is the value of 3 cubed?",
+    "choices": ["3", "6", "9", "27"],
+    "type": "radio",
+    "correctAnswer": 3
+},
+{
+    "question": "What is 80 - 30?",
+    "choices": ["20", "30", "40", "50"],
+    "type": "radio",
+    "correctAnswer": 2
+}
+
+]
